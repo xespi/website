@@ -9,8 +9,8 @@
 // https://youtu.be/3noMeuufLZY
 
 class Sprite {
-  float x, y, w, speed;
-  int len, index;
+  float x, y, w, speed, index;
+  int len;
   ArrayList<PImage> animation;
   Sprite(ArrayList<PImage> animation_, float x_, float y_, float speed_) {
     x = x_;
